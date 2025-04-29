@@ -19,7 +19,7 @@ class ChatViewModel : ViewModel() {
     val messageList = _messageList.asStateFlow()
 
     private val client = OkHttpClient()
-    private val apiKey = "AIzaSyBOWJuwqyDK5HPJp0RDG9w8AdrOjMQzwTk" // TODO: Replace with your actual key
+    private val apiKey = "" // TODO: Replace with your actual key
 
     fun sendMessage(userMessage: String) {
         // Add user message to the list first (locally)
